@@ -29,4 +29,4 @@ def copy_images_to_target_folder(
         shutil.copy(source_path + source_images_name, copy_path)
         print(copy_path)
     else:
-        raise Exception("You need delete image before past! Image to delete: %s", el)
+        raise Exception("You need delete image before past! Image to delete: %s", target_image_name)
